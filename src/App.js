@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './componentes/Navbar';
+import frente1 from './imagenes/frente1.jpg';
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+      <img src={frente1} alt="predeterminado" />
+      
+     {/*} <header className="App-header OtraClase">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bienvenidos
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <button style = {{ color:'black', backgroundColor:'white', fontSize:'30px' }}> Boton </button>
+      {imagen}
+      </header>*/}
+    
+    <Navbar />
+    
+
     </div>
   );
 }
