@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './componentes/Navbar';
-import frente1 from './imagenes/frente1.jpg';
+import ItemListContainer from './componentes/ItemListContainer';
+
+
+
 function App() {
   
   return (
     <div className="App">
-
-      <img src={frente1} alt="predeterminado" />
-      
      {/*} <header className="App-header OtraClase">
         <p>
           Bienvenidos
@@ -17,8 +17,8 @@ function App() {
       </header>*/}
     
     <Navbar />
-    
-
+    <ItemListContainer greeting='Hola'> </ItemListContainer>
+  
     </div>
   );
 }
